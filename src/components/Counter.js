@@ -1,6 +1,8 @@
 import React, {Component} from "react";
 import {bindActionCreators} from "redux";
 import {connect} from "react-redux";
+
+import Snackbars from "../components/Snackbars"
 import {hideElement, showElement, toggelInput} from "../action/actions"
 
 class Counter extends Component {
@@ -27,6 +29,15 @@ class Counter extends Component {
                 <div>
                     <button type="button" style={{background: toggel===1 ? 'green' : 'grey' }} onClick={e => {toggelInput(1)}}>No</button>
                     <button type="button" style={{background: toggel===2 ? 'green' : 'grey' }} onClick={e => {toggelInput(2)}}>Yes</button>
+                </div>
+            </div>
+			
+			<div>
+				<br/>
+				<br/>
+                <div>Snackbars:</div>
+                <div>
+                    <Snackbars />
                 </div>
             </div>
 			
