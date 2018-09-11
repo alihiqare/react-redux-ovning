@@ -2,8 +2,8 @@ import React, {Component} from "react";
 import {bindActionCreators} from "redux";
 import {connect} from "react-redux";
 
-import Snackbars from "../components/Snackbars"
-import {hideElement, showElement, toggelInput} from "../action/actions"
+import Snackbars from "../components/Snackbars";
+import {hideElement, showElement, toggelInput} from "../action/actions";
 
 class Counter extends Component {
 
@@ -37,7 +37,7 @@ class Counter extends Component {
 				<br/>
                 <div>Snackbars:</div>
                 <div>
-                    <Snackbars />
+                    <Snackbars message={'Testing snackbar!'} />
                 </div>
             </div>
 			
