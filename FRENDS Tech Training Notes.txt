@@ -1,0 +1,62 @@
+FRENDS Tech Training Notes
+-------------------------
+Sub-process?
+
+in order to communicate agents they need to coordinate first. 
+
+How via protocol or connector? 
+
+If it then via congiuration?  
+
+
+git add .
+
+git commit -m "messgae to commit"
+
+git push origin master
+
+
+___________________________
+
+Introductions presentation om Telia TV
+_____________________________
+
+TV Streaming cdns 
+
+
+
+
+Domain driven design
+
+In order to create good software, you have to know what that software is all about. You cannot create a banking software system unless you have a good understanding of what banking is all about, one must understand the domain of banking.
+https://stackoverflow.com/questions/1222392/can-someone-explain-domain-driven-design-ddd-in-plain-english-please/1222488#1222488
+https://medium.com/the-coding-matrix/ddd-101-the-5-minute-tour-7a3037cf53b8
+
+DDD also recommends several patterns:
+
+Repository, a pattern for persistence (saving and loading your data, typically to/from a database)
+Factory, a pattern for object creation
+Service, a pattern for creating objects that manipulate your main domain objects without being a part of the domain themselves
+
+
+
+-----------------------------------------------------------------------------
+Continuous integration, delivery and deployment (Team City/OctopusDeploy)
+-----------------------------------------------------------------------------
+
+https://www.excella.com/insights/teamcity-vs-jenkins-better-continuous-integration-server
+
+
+
+
+
+https://webportal.hiq.se
+
+_____________________________________________
+
+1-React Native Crash Course
+2-Android SDK & AVD setup for react native app 
+_____________________________________________
+
+https://www.youtube.com/watch?v=mkualZPRZCs
+https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D
