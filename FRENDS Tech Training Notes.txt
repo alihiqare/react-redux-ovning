@@ -60,3 +60,25 @@ _____________________________________________
 
 https://www.youtube.com/watch?v=mkualZPRZCs
 https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D
+
+_____________________________________________
+
+Jasmine & Karma
+_____________________________________________
+
+https://codecraft.tv/courses/angular/unit-testing/jasmine-and-karma/
+
+_____________________________________________
+
+What are the features of Angular 6?
+_____________________________________________
+
+https://www.quora.com/What-are-the-features-of-Angular-6
+
+_____________________________________________
+
+To print text from browser.
+_____________________________________________
+https://developer.mozilla.org/en-US/docs/Web/API/Window/getSelection
+https://developer.zebra.com/thread/34367
+https://stackoverflow.com/questions/30135387/how-to-print-react-component-on-click-of-a-button

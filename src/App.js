@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Counter from './components/Counter';
-
+import PrintText from './components/PrintText';
 
 class App extends Component {
   render() {
@@ -11,6 +11,7 @@ class App extends Component {
           <h1 className="App-title">Simple Counter</h1>
         </header>
         <Counter />
+		<PrintText />
       </div>
     );
   }
