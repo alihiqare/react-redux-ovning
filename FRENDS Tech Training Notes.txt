@@ -59,7 +59,18 @@ _____________________________________________
 _____________________________________________
 
 https://www.youtube.com/watch?v=mkualZPRZCs
+https://www.youtube.com/watch?v=vlmpodGvJqc
 https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D
+https://www.coursera.org/lecture/react-native/exercise-video-getting-started-with-react-native-6xPLn
+
+_____________________________________________
+
+Ionic Framework
+_____________________________________________
+
+Ionic Developer Glossary: https://ionicframework.com/docs/developer-resources/what-is/#typescript
+
+https://ionicframework.com/docs/developer-resources/progressive-web-apps/
 
 _____________________________________________
 
@@ -82,3 +93,69 @@ _____________________________________________
 https://developer.mozilla.org/en-US/docs/Web/API/Window/getSelection
 https://developer.zebra.com/thread/34367
 https://stackoverflow.com/questions/30135387/how-to-print-react-component-on-click-of-a-button
+https://gist.github.com/rashid-softordi/8b1ae43296e40362f41005ce3f811320
+
+
+_____________________________________________
+
+REST api development using PHP
+_____________________________________________
+
+https://shareurcodes.com/blog/creating%20a%20simple%20rest%20api%20in%20php
+
+_____________________________________________
+
+Apply vs. Call vs. Bind Examples
+_____________________________________________
+https://stackoverflow.com/questions/15455009/javascript-call-apply-vs-bind
+
+
+_____________________________________________
+
+A Comparison of JavaScript Linting Tools
+JSLint, JSHint, JSCS and ESLint
+_____________________________________________
+https://www.sitepoint.com/comparison-javascript-linting-tools/
+
+_____________________________________________
+
+TCP/IP
+_____________________________________________
+
+https://searchnetworking.techtarget.com/definition/TCP-IP
+
+
+_____________________________________________
+HMI stands for Hub Management Interface
+_____________________________________________
+http://smart-mobility-hub.com/hmis-for-autonomous-vehicles-where-is-the-need-for-innovation/
+
+
+How can I read an svg file included in my project and write to it?
+
+https://stackoverflow.com/questions/38580176/how-can-i-read-an-svg-file-included-in-my-project-and-write-to-it
+
+
+
+electronJs:  https://www.youtube.com/watch?v=0I_OURgu8Ow
+
+
+
+Hej Ylva och Rashid,
+
+Tänkte med mötet var att prova bygga en "mockup" tillsammans för att visa Rashid hur vi jobbade och vilka tools vi använde förra projekter.
+Jag tror inte det behöver förberedda för mycket, men vi kommer använda dem följande:
+ - Node.js och NPM 
+ - SVG grafik format
+ - GSAP javascript bibliotek för animera grafik elementer
+ - Browserify för att "transpile/package" Node.js kod till "browser friendly" javascript
+ - Grunt för automatisera processen 
+ - Electron (https://electronjs.org/) för att köra web sidor som en desktop applikation
+Som "data exchange" prokotoll, vi använde två olika:
+ - Websocket + JSON
+ - AMQP (https://www.rabbitmq.com/protocol.html)
+
+Jag bilagade en prototyp av ICL baserad på den grafiken som Joel visade igår.
+Den använder Node.JS och NPM, och Electron.
+För att använda det, kör "npm install" och "npm start" från projekts mappen.
+För att se "real time" data (dvs. hastighet och revs i prototypen) då behöver du installera RabbitMQ (en AMQP server) och köra bilagd Python scrip. 
