@@ -6,7 +6,8 @@ export const ASYN_REQUEST = 'ASYN_REQUEST';
 
 const intialState = {
   visible: '',
-  toggel: null
+  toggel: null,
+  printFlag:null,
 };
 
 export default function counter (state = intialState, action) {
