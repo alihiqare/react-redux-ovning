@@ -9,6 +9,7 @@ const intialState = {
   printFlag:null,
   buildFlag: null,
   releaseFlag: null,
+  deployFlag: null,
 };
 
 export default function counter (state = intialState, action) {
