@@ -2,6 +2,7 @@ export const HIDE_INPUT = 'HIDE_INPUT';
 export const SHOW_INPUT = 'SHOW_INPUT';
 export const TOGGLE_INPUT = 'TOGGLE_INPUT';
 export const ASYN_REQUEST = 'ASYN_REQUEST';
+export const SYN_REQUEST = 'SYN_REQUEST';
 
 
 const intialState = {
