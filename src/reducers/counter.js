@@ -8,7 +8,7 @@ const intialState = {
   visible: '',
   toggel: null,
   printFlag:null,
-  buildFlag: null
+  buildFlag: false
 };
 
 export default function counter (state = intialState, action) {
